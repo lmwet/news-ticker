@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.ticker {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-top: dodgerblue solid 2px;
+    border-bottom: dodgerblue solid 2px;
+    height: 2em;
+    line-height: 2em;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+#ticker1 .box {
+    left: 100%;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    border-top: dodgerblue solid 2px;
+    border-bottom: dodgerblue solid 2px;
+    height: 2em;
+    line-height: 2em;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.anchors {
+    padding-right: 40px;
+}
